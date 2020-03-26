@@ -1,0 +1,7 @@
+#+TITLE: Pomodoro Timer
+[[./draft/websitelayout.png]]
+* TODO project plans [0/5]
+- [ ] Create the gui with html and css
+- [ ] Create working timer that beeps when turned on or stops at 25 minutes
+- [ ] add 2 buttons, a start/reset button, and a "add more time" button
+- [ ] add a time counter, that increases by 1 every 25 minutes until it reaches 4, then reset
