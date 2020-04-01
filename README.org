@@ -1,4 +1,5 @@
 #+TITLE: Pomodoro Timer
+See a live demo at https://stoicindividual.github.io/javascript-pomodoro-timer/
 [[./screenshots/projectScreenshot.png]]
 * TODO project plans [4/7]
 - [X] Create the gui with html and css
