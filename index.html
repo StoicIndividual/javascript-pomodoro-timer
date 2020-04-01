@@ -3,8 +3,23 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Pomodoro Timer</title>
+        <link href="./css/style.css" rel="stylesheet"/>
     </head>
     <body>
-
+      <div id="container">
+        <div id="led-indicator"></div>
+	<div id="timer-container"><span id='c-time-minutes'>25</span>:<span id='c-time-seconds'>00</span></div>
+        <div id="info-bar">
+          <div id="total-time"><span id='t-time-hours'>00</span>:<span id='t-time-minutes'>00</span>:<span id='t-time-seconds'>00</span></div>
+          <div id="spacer"></div>
+          <div id="counter"><span id='counter-digit'>0</span>/4</div>
+	</div>
+	<div id="buttons">
+          <button id="start">Start</button>
+          <button id="resume">Resume</button>
+          <button id="reset">Reset</button>
+	</div>
+      </div>
+      <script src="./js/script.js"></script>
     </body>
 </html>
